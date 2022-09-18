@@ -34,6 +34,7 @@ $form.addEventListener('submit', async (e) =>{
     if(ipInfo){
         $results.innerHTML = JSON.stringify(ipInfo, null, 1);
     }
+    
 
     $submit.removeAttribute('disable');
     $submit.removeAttribute('aria-busy');
