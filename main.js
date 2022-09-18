@@ -13,7 +13,7 @@ const fetchIPinfo = ip =>{
     .catch(err => console.log(err));
 }
 
-
+//
 const $ = selector => document.querySelector(selector);
 
 const $form = $('.form');
