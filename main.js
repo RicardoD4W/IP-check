@@ -32,7 +32,7 @@ $form.addEventListener('submit', async (e) =>{
     const ipInfo = await fetchIPinfo(value);
 
     if(ipInfo){
-        $results.innerHTML = JSON.stringify(ipInfo, null, 2);
+        $results.innerHTML = JSON.stringify(ipInfo, null, 1);
     }
 
     $submit.removeAttribute('disable');
